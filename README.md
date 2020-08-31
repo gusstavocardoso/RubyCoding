@@ -1,3 +1,3 @@
-# RubyCoding
+## RubyCoding
 
-#### Repositório para estudos da linguagem Ruby
+Repositório para estudos da linguagem Ruby
