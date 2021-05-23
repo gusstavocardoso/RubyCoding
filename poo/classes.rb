@@ -1,25 +1,23 @@
-# Ruby program to understand the concept of
-# Access Method
-class Language
-	def initialize(language_name, topic_name)
-		@language_name = language_name
-		@topic_name = topic_name
+class Linguagem
+	def initialize(nome, topico)
+		@nome = nome
+		@topico = topico
 	end
 	
-	# Defining Methods
-	def return_name
-		return @language_name
+	# Definindo métodos
+	def retorna_nome
+		return @nome
 	end
-	def return_topic
-		return @topic_name
+	def retorna_topico
+		return @topico
 	end
 end
 
-# Creating objects
-object1 = Language.new('Ruby','method')
-object2 = Language.new('Scala','string')
-puts 'Language name for object1: ' + object1.return_name
-puts 'Topic Name for object1: ' + object1.return_topic
+# Criando objetos
+linguagem1 = Linguagem.new('Ruby','metodo')
+linguagem2 = Linguagem.new('Scala','string')
+puts 'A linguagem 1 é: ' + linguagem1.retorna_nome
+puts 'O tópico 1 é: ' + linguagem1.retorna_topico
 
-puts 'Language name for object2: ' + object2.return_name
-puts 'Topic Name for object2: ' + object2.return_topic
+puts 'A linguagem 2 é: ' + linguagem2.retorna_nome
+puts 'O tópico 2 é: ' + linguagem2.retorna_topico
